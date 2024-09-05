@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex file</title>
+    <style>
+        .container{
+            display:flex;
+            flex-direction: row;
+            background-color: aliceblue;
+            height: auto;
+            width: auto;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .box{
+            background-color: aqua;
+            margin: 10px;
+            text-align: center;
+
+        }
+        span{
+            background-color: brown;
+        }
+        .box-one{
+        height: 100px;
+        width: 50px;
+        background-color: blanchedalmond;
+        order:2;
+        }
+        .box-two{
+            height: 50px;
+            width: 60px;
+            background-color: lightcoral;
+            order:4;
+
+        }
+        .box-three{
+            height: 70px;
+            width: 40px;
+            background-color:cadetblue;
+            order:1;
+        }
+        span{
+            order:2; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box-one">1</div>
+        <div class="box box-two">2</div>
+        <div class="box box-three">3</div>
+        <span>hello span</span>
+    </div>
+
+</body>
+</html>
